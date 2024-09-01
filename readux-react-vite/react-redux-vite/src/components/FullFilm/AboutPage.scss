@@ -1,0 +1,331 @@
+.containerAbout {
+  display: flex;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  background-color: gray;
+  color: white;
+}
+
+.FLEX {
+  height: 100%;
+  text-align: justify;
+  width: 70%;
+}
+
+.react-player__controls {
+  display: none;
+}
+
+.description {
+  padding-top: 40px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  color: black;
+}
+
+.title_text {
+  color: black;
+  font-size: 25px;
+  padding-bottom: 10px;
+}
+
+.text23 {
+  cursor: pointer;
+  line-height: 180%;
+  padding-left: 25px;
+  text-align: start;
+  font-size: 16px;
+}
+
+.photo {
+  padding-right: 40px;
+  margin-left: 20px; /* Відстань між текстом та фото */
+}
+
+.gray {
+  line-height: 4vh;
+  color: gray;
+}
+
+.gray p {
+  align-items: center;
+  color: gray;
+}
+
+.padding-righr {
+  padding-left: 40px;
+  color: gray;
+}
+
+.plot {
+  display: flex;
+  align-items: center;
+  border: 10%;
+  padding: 21px 5px;
+  background: rgb(255, 255, 255);
+}
+
+.trailer23 {
+  width: 100%;
+  padding-top: 20px;
+  justify-content: center;
+}
+
+.trailer:hover {
+  color: black;
+}
+
+.container_for_video {
+  color: black;
+  border-radius: 10px;
+  background-color: #2b4d8d;
+  width: 100%;
+  /* Вкажіть необхідний розмір нижнього падінгу */
+  padding-left: 0; /* Без бокових падінгів */
+  padding-right: 0;
+}
+
+.header_insade_trailer,
+.player_insade_trailer {
+  color: black;
+  padding-left: 40px;
+  padding-right: 40px;
+  display: inline-block; /* Встановлює елементи в один рядок */
+  background-color: #f4ca16;
+}
+
+.reclama {
+  font-size: 12px;
+  color: rgb(53, 51, 51);
+  bottom: 150%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer01 {
+  justify-content: space-between;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  color: whitesmoke;
+  margin: 5px 0; /* Відступ зверху 20px, з боків 0, знизу 20px */
+}
+
+.footer02:hover {
+  cursor: pointer;
+}
+
+.footer02 {
+  font-size: 18px;
+  align-items: center;
+  padding-left: 20px;
+  gap: 20px;
+  display: flex;
+}
+
+.footer02 p:first-of-type {
+  color: #68ef00;
+}
+.footer02 p:nth-of-type(2) {
+  color: red;
+}
+
+.fotter_container {
+  padding: 0px 20px;
+  align-items: center;
+  display: flex;
+}
+
+.button-container-about {
+  display: flex;
+  position: relative;
+  margin-left: 20px;
+  margin-top: 50px;
+}
+
+.button-container-about {
+  margin: 0px;
+}
+
+.container_12 {
+  color: white;
+}
+
+.arroysecond {
+  padding-left: 5px;
+}
+
+.Plot_Text {
+  text-decoration-thickness: 0.6px; /* Задайте бажану товщину лінії */
+  color: black;
+  text-decoration: underline;
+}
+
+/* Кнопка закриття */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+.popup {
+  margin: 0px;
+  background: #fff;
+  width: 30%;
+  position: relative;
+}
+
+.Tickets {
+  position: static;
+}
+
+.btn_tickets {
+  background-color: #ff01fb;
+  gap: 10px;
+  border-radius: 0;
+  width: 100%;
+  margin: 0;
+}
+
+.btn_tickets:hover {
+  background-color: #1c2833;
+  color: deeppink;
+}
+
+.tickte {
+  margin-right: 4%;
+}
+
+#Capa_1:hover {
+  fill: green;
+}
+
+.arroysecond {
+  color: red;
+}
+
+.buy_Tikets {
+  display: block;
+  margin-top: 5%;
+  background-color: gray;
+  width: 100%;
+}
+
+.footer_About {
+  padding-top: 5%;
+}
+
+.FaYoutube:hover {
+  color: red;
+}
+.FaTwitter:hover {
+  color: aqua;
+}
+
+.FaInstagram:hover {
+  color: #ff01fb;
+}
+
+.telegram {
+  margin-bottom: 2%;
+  color: white;
+  background-color: #0fa7e4;
+  border-radius: 15px;
+  width: 100%;
+  padding: 0.5% 0%;
+  margin-top: 2%;
+  justify-content: center;
+  display: flex;
+}
+
+.FaYoutube_Rename {
+  color: white;
+}
+
+.span_youtube {
+  font-size: 1.5vh;
+  position: relative;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+.green_heart {
+  fill: #68ef00;
+}
+
+.IMDB {
+  cursor: pointer;
+  border-radius: 7px;
+  padding: 0.5% 0.7%;
+  color: BLACK;
+  background-color: #f4ca16;
+}
+
+.IMDB:hover {
+  color: deeppink;
+}
+
+.photo_about_page:hover {
+  box-shadow: rgba(0, 0, 0.55, 0.55) 5px 9px 15px;
+}
+
+.footer012 {
+  gap: 10%;
+}
+
+.Genre_text {
+  text-align: left;
+  word-spacing: 10px;
+}
+
+.span_genre_text:hover {
+  cursor: pointer;
+  background-color: #eaeded;
+}
+
+.Genre {
+  display: block;
+}
+
+.span_genre_text {
+  border-radius: 40px;
+  padding: 2% 5%;
+  border: 1px solid deeppink;
+  margin-right: 1vh;
+}
+.wrapper_genre {
+  padding-top: 2vh;
+}
+
+.wrapper_24 {
+  color: black;
+}
+
+.sectino_film {
+  padding-top: 3vh;
+  display: block;
+}
+.wrapper_24_photo {
+  padding-top: 3vh;
+}
+
+a:hover {
+  color: #ff01fb;
+}

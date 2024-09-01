@@ -1,0 +1,176 @@
+.NewsPage {
+  padding-top: 50px;
+  color: black;
+  padding: 10;
+  flex-direction: column;
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: -200px;
+  /* початкове зміщення вліво, поза екран */
+  width: 200px;
+  height: 100%;
+  background-color: #d5d8dc;
+  transition: left 0.3s ease;
+}
+
+a:hover {
+  color: #ff01fb;
+}
+
+.NewsPage.open {
+  left: 0;
+  /* показати меню */
+}
+
+.menu {
+  padding-top: 50px;
+  color: black;
+  padding: 10;
+  flex-direction: column;
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: -200px;
+  /* початкове зміщення вліво, поза екран */
+  width: 200px;
+  height: 100%;
+  background-color: #d5d8dc;
+  transition: left 0.3s ease;
+  /* анімація зміни позиції */
+}
+
+.menu.open {
+  left: 0;
+  /* показати меню */
+}
+
+.menu1 {
+  padding-top: 50px;
+  color: black;
+  padding: 10;
+  flex-direction: column;
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: -200px;
+  /* початкове зміщення вліво, поза екран */
+  width: 200px;
+  height: 100%;
+  background-color: #d5d8dc;
+  transition: left 0.3s ease;
+  /* анімація зміни позиції */
+}
+
+.menu1.open {
+  left: 0;
+  /* показати меню */
+}
+
+.input {
+  border: 3px solid transparent;
+  border: none;
+  background: #1a1a1a;
+  padding: 8px 98px;
+  margin-top: 23px;
+}
+
+.button:hover {
+  color: red;
+}
+
+.Hover_Btn {
+  display: flex;
+  justify-content: flex-end;
+  text-decoration: none;
+  color: white;
+  gap: 20px;
+}
+
+.Nav_Header:hover {
+  color: #ff01fb;
+}
+
+.Gap {
+  display: flex;
+  justify-content: flex-end;
+  margin: 0 10px;
+}
+
+.modale_btn {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 20px;
+  color: white;
+}
+
+.Menu {
+  display: flex;
+  justify-content: flex-end;
+  left: 100;
+  top: 0;
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.Menu > li:hover {
+  color: #ff01fb;
+}
+.Menu > li {
+  position: relative;
+}
+
+.Menu_items > a:hover {
+  color: #ff01fb;
+}
+
+.Menu_items {
+  display: flex;
+  justify-content: flex-end;
+  text-decoration: none;
+  margin: 0 auto;
+  display: flex;
+}
+
+.Menu_items_second:hover .sub_menu {
+  display: block;
+}
+
+.Menu_items_second {
+  position: relative;
+}
+
+.sub_menu {
+  font-size: 20px;
+
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: none;
+  top: 40%;
+  left: 0;
+  background-color: #444;
+  min-width: 150px;
+}
+
+.Menu li {
+  color: #ff01fb;
+}
+
+.sub_menu li a {
+  color: #ff01fb;
+  padding: 10px 20px;
+  color: white;
+  text-decoration: none;
+}
+
+.sub_menu li a:hover {
+  color: #ff01fb;
+}
+
+.Mode_UA_Menu {
+  color: white;
+  font-size: 20px;
+}

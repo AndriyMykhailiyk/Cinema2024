@@ -1,0 +1,68 @@
+.Btn_Second {
+white-space: nowrap;
+}
+
+.container-Flex {
+     margin: 24px;
+
+    display: flex;
+}
+
+.modal-window {
+  position: fixed;
+  z-index: 100;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -80%) scale(.9);
+  width: 520px;
+  max-width: 95%;
+  min-height: 200px;
+  box-shadow: 0 10px 30px rgba(#000, .2);
+  background-color: #fff;
+  border-radius: 4px;
+  transition: all .18s ease-in-out;
+  visibility: hidden;
+  opacity: 0;
+}
+  .show {
+    transform: translate(-50%, -50%) scale(1);
+    opacity: 1;
+    visibility: visible;
+}
+  .title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+    height: 100%;
+    min-height: inherit;
+}
+
+.popup .overlay {
+position: fixed;
+top: 0px;
+left: 0px;
+width: 100vw;
+height: 100vh;
+z-index: 1;
+
+}
+
+.popup .content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+transform: translate(-50%,-50%);
+background: #fff;
+width:300px;
+height:300px;
+z-index: 2;
+text-align: center;
+padding: 20px;
+box-sizing: border-box;
+  }
+
+
+
+
+  

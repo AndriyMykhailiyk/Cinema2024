@@ -1,0 +1,86 @@
+.Poster_Page {
+    justify-content: space-between;
+    display: flex;
+}
+
+.Gage {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.contaier9090 {
+    padding-bottom: 20px;
+    padding-top: 30px;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    flex-wrap: wrap;
+    display: flex;
+}
+
+.photoo {
+    transition: transform 0.3s ease-in-out;
+    /* Анимация перехода */
+
+    width: 280px;
+}
+
+.photoo:hover {
+    color: black;
+    transform: scale(1.15);
+    filter: brightness(0.5);
+    /* або використовуйте іншу функцію фільтра, наприклад, opacity */
+
+}
+
+
+.Poster_Page:hover .text9090 {
+    width: 400%;
+    color: white;
+    display: block;
+}
+
+.contaier9090 :hover .text9080 {
+    display: block;
+}
+
+
+.Ul_style {
+    justify-content: center;
+    list-style: none;
+}
+
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+
+.text9080 {
+    padding-top: 10px;
+    margin: 0 auto;
+    display: flex;
+    display: none;
+    font-size: 20px;
+    position: absolute;
+}
+
+.text9090 {
+    animation: fadeIn 0.3s ease-in-out forwards;
+    /* Додає анімацію */
+    font-size: 5rem;
+    display: none;
+    position: absolute;
+}
+
+
+.Gage .text9090 {
+    width: 200%;
+}

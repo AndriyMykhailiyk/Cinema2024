@@ -1,0 +1,439 @@
+/* Google Fonts import */
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Russo+One&display=swap");
+
+#root {
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+
+a:hover {
+  color: #ff01fb;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.Ul_Style {
+  color: black;
+  margin: 15px;
+  background-color: white;
+  padding: 80px;
+  list-style: none;
+}
+
+.Red {
+  padding-right: 5px;
+  color: green;
+}
+
+.Btn_Second {
+  font-size: 13px;
+}
+
+.block_icon {
+  cursor: pointer;
+  width: 40px;
+  display: grid;
+  justify-content: space-evenly;
+}
+
+.icon-text:hover {
+  text-decoration: none;
+  color: #ff01fb;
+}
+
+.Header_Name_Font {
+  grid-template-columns: 1fr;
+  align-items: center;
+  margin: 0;
+  padding-top: 0; /* Remove potential padding */
+  background-color: gray;
+  z-index: 150;
+}
+
+.Main_Content {
+  padding-top: 100px; /* Додайте цей відступ */
+}
+
+.Mode_Btn-second {
+  padding-top: 130px;
+}
+
+button {
+  text-decoration: none;
+}
+
+.btn-style {
+  font-size: 20px;
+}
+
+.btn-style:hover {
+  border-radius: 100px;
+  color: #ff01fb;
+}
+
+.button-container:hover {
+  border-right: 100px;
+  color: #ff01fb;
+  text-decoration: none;
+}
+
+.button-container {
+  background-color: #363c49;
+  padding-left: 70px;
+  display: flex;
+  text-decoration: none;
+  margin-right: auto;
+}
+
+.Mode_Btn {
+  display: contents;
+  align-items: center;
+  position: relative;
+  background-color: transparent;
+}
+
+.icon-large {
+  width: 35px;
+  font-size: 30px;
+}
+
+.icon-text {
+  text-align: center;
+  align-items: center;
+  display: flex;
+}
+
+.container-btn {
+  cursor: pointer;
+  right: 400%;
+  justify-content: center;
+  align-items: center;
+  gap: 20%;
+  flex-direction: column;
+}
+
+.input12::placeholder {
+  line-height: 16px;
+  align-items: center;
+  font-size: 13px;
+  color: #a2a6a9;
+}
+
+.search {
+  margin-right: 10px;
+  position: relative;
+  display: inline-block;
+  align-items: center;
+  display: flex;
+}
+
+.input12::placeholder {
+  margin-left: 5px;
+  color: whitesmoke;
+}
+
+.input12 {
+  color: white;
+  background-color: #242424;
+  border-radius: 9px;
+  font-size: 20px;
+  border: 0;
+  padding: 1vh 1vh;
+  margin: 20px 0px 20px 0px;
+  display: flex;
+}
+
+.container123 {
+  flex-direction: column;
+  display: flex;
+}
+
+.button {
+  justify-content: center;
+  border-radius: 5px;
+  border-color: #e5c182;
+  border-width: 2px;
+  font-size: 20px;
+  max-width: 330px;
+  padding: 13px 65px;
+  margin: 0;
+  display: inline-block;
+  text-align: center;
+  white-space: nowrap;
+  background-color: transparent;
+  color: #fff;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #e5c182;
+  color: #333;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.icon-text a {
+  text-decoration: none;
+  margin-left: 10px;
+}
+
+@media (max-width: 768px) {
+  .Mode_Btn {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+
+.content {
+  margin-top: 33.26px;
+  padding-left: 70px;
+}
+
+.icon-large {
+  color: black;
+}
+
+.flex-end {
+  justify-content: flex-end;
+  display: flex;
+}
+
+.plantet {
+  font-size: 2.5rem;
+}
+.container_12 {
+  order: 1;
+  gap: 7px;
+  padding: 10px 0px 10px 70px;
+  align-items: center;
+  display: flex;
+}
+
+.right_sside {
+  padding: 2% 0%;
+
+  display: flex;
+}
+
+.footer {
+  padding-top: 50px;
+  text-align: center;
+  padding: 5% 0%;
+  max-height: 600px;
+  background: black;
+}
+
+p {
+  margin: 0;
+}
+
+.FIGURE {
+  flex: 1;
+}
+.container_figer {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.btn-style-1 {
+  font-weight: 300;
+  color: white;
+}
+.btn-style-1:hover {
+  background-color: #808080;
+  border-radius: 100;
+  color: #363c49;
+  transition: 0.2s;
+}
+
+.lI-soc {
+  display: flex;
+  justify-content: center; /* Вирівнює вміст li по центру */
+}
+
+.footer012 {
+  cursor: pointer; /* Вирівнює іконки по центру */
+  gap: 12px; /* Відстань між іконками */
+}
+
+.textfooter {
+  cursor: pointer;
+  color: white;
+  padding-bottom: 30px;
+}
+
+.searsh_svg {
+  order: 3;
+  position: absolute;
+  right: 5px; /* Відступ справа */
+  top: 50%;
+  transform: translateY(-50%);
+  pointer-events: none;
+  font-weight: 800;
+  color: white;
+}
+
+.texttext {
+  justify-content: center;
+  position: relative;
+  align-items: center;
+  color: white;
+}
+
+.paragraphs {
+  margin-bottom: 5px;
+  color: white;
+}
+
+.text_fotter_a {
+  color: white;
+}
+.Hello_Fotter_Text {
+  margin: 0px;
+  padding-bottom: 5px;
+  font-size: 1em;
+}
+.textfooter {
+  width: 20%;
+}
+.suspendes_Information {
+  display: flex;
+  justify-content: center;
+}
+.layout_text {
+  justify-content: center;
+  display: flex;
+}
+.span_text p {
+  color: #ff01fb;
+}
+.span_wraper {
+  margin-right: 70px;
+}
+.text_footer {
+  margin: 0px;
+  color: #fff;
+}
+.layout_text_first {
+  font-family: sans-serif;
+}
+.layout_text_first p {
+  color: white;
+}
+.wrapper_footer {
+  display: flex;
+  justify-content: space-around;
+}
+.layout_text_first p {
+  color: white;
+  font-size: 14px;
+}
+.layout_text_second_li:hover .text_menu_footer1 {
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+.text_menu_footer {
+  margin: 0;
+  padding-bottom: 15px;
+}
+.layout_text_second_li {
+  display: flex;
+  padding-bottom: 3px;
+}
+.Play_Photo {
+  width: 100px;
+}
+.text_menu_footer1 {
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  text-decoration-thickness: 0.5px;
+}
+.soc_media_section {
+  gap: 20px;
+  display: flex;
+}
+
+.soc_media_section > :nth-child(1):hover {
+  /* Стиль для першої іконки (YouTube) */
+  transition: 0.2s;
+  color: red;
+}
+
+.soc_media_section > :nth-child(2):hover {
+  /* Стиль для другої іконки (Twitter) */
+  color: #1da1f2;
+  transition: 0.2s;
+}
+
+.soc_media_section > :nth-child(3):hover {
+  /* Стиль для третьої іконки (Instagram) */
+  transition: 0.2s;
+  color: #c13584;
+}
+
+.Photo_section_footer {
+  display: flex;
+}
+.text_mobile_footer_block {
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+}
+
+.right_sside {
+  border-bottom: 1 solid red;
+}

@@ -1,0 +1,157 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto:wght@400;700&display=swap");
+
+p {
+  color: wheat;
+}
+
+ul {
+  margin: 0;
+}
+.wrapper {
+  padding-top: 2vh;
+  font-family: Poppins, Roboto, sans-serif;
+  justify-content: center;
+}
+
+.plantet {
+  padding-right: 1vh;
+}
+
+p {
+  color: white;
+  font-family: Poppins, Roboto, sans-serif;
+}
+
+.li_genre_modale {
+  display: flex;
+  text-align: left;
+}
+.UL_GENRE_MODALE {
+  margin: 0;
+  padding-left: 0px;
+}
+
+label {
+  color: white;
+}
+
+span li:hover {
+  cursor: pointer;
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 50px;
+  height: 24px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  transition: 0.4s;
+  border-radius: 34px; /* Заокруглення для круглої форми */
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 16px;
+  width: 16px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  transition: 0.4s;
+  border-radius: 50%; /* Круглий елемент */
+}
+
+input:checked + .slider {
+  background-color: #2196f3;
+}
+
+input:checked + .slider:before {
+  transform: translateX(26px);
+}
+
+.switch {
+  display: flex;
+}
+
+img {
+  transition: transform 1s ease;
+}
+.rotate {
+  transform: rotate(180deg);
+}
+
+.UL_GENRE_MODALE:hover {
+  background-color: rgba(128, 128, 128, 0.2);
+}
+.Rating:hover {
+  background-color: rgba(128, 128, 128, 0.2);
+}
+
+.Adult:hover {
+  background-color: rgba(128, 128, 128, 0.2);
+}
+
+p:hover {
+  cursor: pointer;
+}
+
+.formats:hover {
+  background-color: rgba(128, 128, 128, 0.2);
+}
+
+.formats_89:hover {
+  background-color: rgba(128, 128, 128, 0.2);
+}
+.formats_89 {
+  padding: 0;
+}
+.Adult-Onle {
+  padding: 1vw 2vw 0.5vw 2vw;
+}
+
+.Adult-Onle:hover {
+  background-color: rgba(128, 128, 128, 0.2);
+}
+
+.Flex_center {
+  align-items: center;
+  display: "flex";
+  justify-content: center;
+}
+
+.Flex_center:hover {
+  cursor: pointer;
+}
+
+.hover-color {
+  color: white;
+}
+
+.Formates {
+  display: flex;
+  padding: 0vw 2vw;
+  background-color: rgba(128, 128, 128, 0.2);
+}
+
+.Formates {
+  background-color: rgba(128, 128, 128, 0.2);
+}
+
+.popup_modale_windows {
+  font-style: 2vw;
+}

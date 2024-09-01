@@ -1,0 +1,56 @@
+.perents {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  padding-right: 20px;
+  margin: 20px;
+  margin-top: 0px;
+}
+
+.Ul_Style {
+  list-style-type: none;
+  margin: 10px 10px;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: left;
+  font-size: 18px;
+  height: 600px;
+}
+
+.Red {
+  color: green;
+}
+
+.year {
+  color: blue;
+}
+
+.btn_sec1 {
+  background-color: red;
+}
+
+.btn_sec {
+  background-color: #ff01fb;
+}
+
+.btn_in_block {
+  justify-content: center;
+  align-items: center;
+  flex: 1 1 auto;
+  padding-top: 10%;
+  bottom: 50%;
+  display: flex;
+  gap: 10px; /* Gap between buttons */
+  margin-top: 10px; /* Margin top for spacing above buttons */
+}
+
+.Height_Container {
+  line-height: 35px;
+  letter-spacing: 1px;
+  font-size: 22px;
+  height: 500px;
+}
+
+.black {
+  color: black;
+}

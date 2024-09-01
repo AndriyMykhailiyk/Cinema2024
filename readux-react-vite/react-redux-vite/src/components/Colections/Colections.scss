@@ -1,0 +1,103 @@
+.section {
+  width: 100%;
+}
+
+.about_film {
+  padding-bottom: 50px;
+}
+
+.layout_about_film {
+  display: flex;
+  color: red;
+  padding: 3vh 10vh;
+  background-color: #1e2022;
+}
+
+.dobirka {
+  cursor: text;
+  color: #c8553e;
+}
+
+.dobirka:hover {
+  cursor: text;
+  color: #fe4621;
+}
+
+
+.UA_kINO {
+  color: #838996;
+}
+
+.film_list {
+  font-family: unset;
+  color: #c8553e;
+  padding: 0vh 10vh;
+}
+.Photo_Movie_Poster {
+  width: 425px;
+  height: 225px;
+}
+.flex_container {
+  display: flex;
+  justify-content: center;
+  gap: 2em;
+  flex-wrap: wrap;
+  padding-bottom: 3vh;
+  position: relative;
+}
+
+.text {
+  font-weight: 100;
+  display: flex;
+  font-family: sans-serif;
+  font-size: 20;
+}
+
+.Photo_Movie_Poster {
+  cursor: pointer;
+}
+
+.Photo_Movie_Poster:hover {
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 5px 15px;
+  filter: brightness(50%);
+  transition: 0.3s;
+  outline: 5px solid #c8553e;
+}
+.layout:hover .text {
+  color: #c8553e;
+}
+.UA_kINO:hover {
+  text-decoration: none;
+  cursor: pointer;
+  color: #c8553e;
+}
+.UA_kINO {
+  text-decoration: underline;
+}
+.a_nav_load {
+  padding: 0 4vw;
+  display: inline-block;
+  height: 60px;
+  line-height: 60px;
+  border-radius: 30px;
+  font-weight: 700;
+  font-size: 2.2vh;
+  background-color: #ca563f;
+  color: #fff;
+}
+
+.a_nav_load:hover {
+  padding: 0 60px;
+  display: inline-block;
+  height: 60px;
+  line-height: 60px;
+  border-radius: 30px;
+  font-weight: 700;
+  font-size: 18px;
+  background-color: #fe4621;
+  color: #fff;
+}
+
+.btn_moreFilm {
+  padding: 2vw;
+}

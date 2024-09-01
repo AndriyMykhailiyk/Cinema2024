@@ -1,0 +1,87 @@
+.container_modale_block {
+    padding-left:  8vh;
+    display: flex;
+margin-right: auto;
+align-items: center;
+    height: 80px;
+    background-color: gray;
+    position: relative;
+}
+
+.btn_popup {
+    padding-right: 5px;
+    z-index: 2;
+    border: 1px solid  #FF01FB;
+position: relative;
+    border-radius: 0%;
+    display: flex;
+}
+
+
+.btn_popup:hover {
+    color: #FF01FB;
+}
+
+.arroy:hover {
+    fill: #FF01FB;
+} 
+
+
+.popup_modale_windows {
+width: 91%;
+    position: absolute;
+    border: 1px solid  #FF01FB;
+    text-align: left;
+    flex: 1;
+    margin: 0px 8px;
+    background: #1A1A1A;
+    display: block;
+}
+
+.Cansle_Btn {
+    margin: 10px 10px;
+    padding: 10px 10px;
+}
+
+.insade_popup {
+    font-size: 16px;
+    float: left;
+    padding: 15px;
+}
+
+.btn_popup:active {
+    border-radius: 0px;
+}
+
+.btn_popup, .popup_modale_windows {
+    box-sizing: border-box;
+}
+
+.Padding_Container {
+    position: relative;
+}
+
+.popup_modale_windows p {
+    padding: 5px 5px;
+}
+
+.background-color:hover :first-child {
+ 
+    background-color: #FF01FB;
+}
+
+.arroy {
+    padding-left: 20px;
+}
+
+.popup_modale_windows p.hover-color:hover {
+ cursor: pointer;
+    background-color: #FF01FB;
+}
+
+
+
+.hover-color {
+    color: white;
+}
+

@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+.NewsPage {
+  padding-top: 50px;
+  color: black;
+  padding: 10;
+  flex-direction: column;
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: -200px;
+  /* початкове зміщення вліво, поза екран */
+  width: 200px;
+  height: 100%;
+  background-color: #D5D8DC;
+  transition: left 0.3s ease;
+
+}
+
+
+.NewsPage.open {
+  left: 0;
+  /* показати меню */;
+}
+
+
+.menu {
+  padding-top: 50px;
+  color: black;
+  padding: 10;
+  flex-direction: column;
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: -200px;
+  /* початкове зміщення вліво, поза екран */
+  width: 200px;
+  height: 100%;
+  background-color: #D5D8DC;
+  transition: left 0.3s ease;
+  /* анімація зміни позиції */
+}
+
+
+.menu.open {
+  left: 0;
+  /* показати меню */
+}
+
+.menu1 {
+  padding-top: 50px;
+  color: black;
+  padding: 10;
+  flex-direction: column;
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: -200px;
+  /* початкове зміщення вліво, поза екран */
+  width: 200px;
+  height: 100%;
+  background-color: #D5D8DC;
+  transition: left 0.3s ease;
+  /* анімація зміни позиції */
+}
+
+.menu1.open {
+  left: 0;
+  /* показати меню */
+}
+
+.input {
+
+  border: 3px solid transparent;
+  border: none;
+  background: #1a1a1a;
+  padding: 8px 98px;
+  margin-top: 23px;
+}
+
+.button:hover {
+  color: red;
+}
+
+.Hover_Btn {
+  font-family: Oswald;
+color: white;  
+gap: 20px;
+}
+
+
+.Gap {
+  margin: 0 10px;
+}
+
+.modale_btn {
+    font-size: 20px;
+  color: #D5D8DC;
+}
+
+
+
+.Menu {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.Menu > li {
+  position: relative;
+}
+
+.Menu_items {
+  margin: 0 auto;
+  display: flex;
+}
+
+
+
+.sub_menu {
+  
+  font-size: 20px;
+
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: none;
+  top: 40%;
+  left: 0;
+  background-color: #444;
+  min-width: 150px;
+}
+
+.sub_menu li a {
+
+  padding: 10px 20px;
+  color: white;
+  text-decoration: none;
+}
+
+.sub_menu li a:hover {
+  color:  #FF01FB;
+}
+
+.modale_btn > li:hover .sub_menu {
+  display: inline-block;
+}
+
+.Mode_UA_Menu {
+  color: white;
+  font-size: 20px;
+}

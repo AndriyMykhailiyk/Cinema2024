@@ -1,0 +1,69 @@
+.Boxstyle {
+   overflow: hidden;
+color: black;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    height: 60%;
+    width: 70%;
+    background-color:#B2BABB;
+    /* Assuming background.paper is a CSS variable */
+    box-shadow: 24px 24px 24px rgba(0, 0, 0, 0.5);
+    /* Adjust as needed */
+    top: 50%;
+    left: 50%;
+}
+
+.btn_close_second {
+    top: 86%;
+    margin-bottom: 10px;
+    font-size: 21px;
+    position: absolute;
+    left: 0.1%;
+    color: white;
+    display: block;
+}
+
+.btn_close {
+    top: 86%;
+    margin-bottom: 10px;
+    font-size: 21px;
+    position: absolute;
+    right: 0.1%;
+    color: white;
+    background-color: black;
+    display: block;
+  }
+.Modale_scss {
+    border: 3px solid black;
+}
+
+.Modale_Style {
+    word-spacing: 2px;
+    color: whitesmoke;
+    font-family: 'Times New Roman', Times, serif;
+    line-height:30px;
+    font-size: 18px;
+}
+
+.TitleBlock 
+{
+    padding: 20px;
+    font-size: 45px;
+    font-weight: bold;
+    background-color: #273746;
+}
+
+.EnatherDescription {
+    color: black;
+    padding: 5px 20px;
+}
+
+.Btn_Buy {
+    top: 86%;
+    margin-bottom: 10px;
+    font-size: 21px;
+    position: absolute;
+    color: white;
+    right: 12%;
+    display: block;
+}

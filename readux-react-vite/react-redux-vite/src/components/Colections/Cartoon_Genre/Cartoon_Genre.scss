@@ -1,0 +1,17 @@
+.Plot {
+  display: block;
+}
+
+.Height_Container {
+  height: 100%;
+}
+
+.movies-container {
+  grid-template-columns: 1fr 1fr 1fr;
+  display: grid;
+  justify-content: center;
+  gap: 2em;
+  flex-wrap: wrap;
+  padding-bottom: 3vh;
+  position: relative;
+}
